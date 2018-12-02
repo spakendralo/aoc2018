@@ -16,7 +16,7 @@ public class Day1_1 {
 
     public static void main(String[] args) throws IOException {
         Stream<String> stream = Files.lines(Paths.get("src/main/resources/day1-1.txt"));
-        Integer sum = stream.parallel().map(Integer::parseInt)
+        Integer sum = stream.map(Integer::parseInt)
                 .reduce((integer, integer2) -> integer + integer2)
                 .get();
         System.out.println("1 : " + sum);
