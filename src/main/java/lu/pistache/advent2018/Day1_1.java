@@ -7,10 +7,10 @@ import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Stream;
 
-public class Day1MapReduce {
+public class Day1_1 {
     private Stream<String> stream;
 
-    public Day1MapReduce(Stream<String> stream) {
+    public Day1_1(Stream<String> stream) {
         this.stream = stream;
     }
 

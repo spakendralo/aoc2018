@@ -3,7 +3,7 @@ package lu.pistache.advent2018;
 import java.io.*;
 import java.util.*;
 
-public class Day1 {
+public class Day1_2 {
     public static void main(String[] args) throws IOException {
         Set freqs = new HashSet();
         List<Integer> integers = readFile(); //assume we can keep all the file in memory
